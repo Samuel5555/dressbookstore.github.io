@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dressbook - Womens &amp; Mens  Clothing, Accessories &amp; Fashion Online Store</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Dressbook is an online clothing retailing company constantly iterating and developing on being able to offer the best clothing and accessories
+  to her customers that will inspire them, manifest the beauty, dignity and esteem within them and ultimately make them look better than they already are. ">
+  <meta name="keywords" content="clothing, dress, fashion, accessories, apparel, dressbook, dress categories, look good">
+  <!-- open graph meta -->
+  <meta property="og:title" content="Dressbook: The Revolutionary Online Clothing Retailer">
+  <meta property="og:description" content="Everyone has an inner sense of beauty and Dressbook aims at transforming that inner sense of beauty to an outer sense where it can indeed be valued and appreciated by offering you the best clothing and accessories.">
+  <meta property="og:url" content="https://dressbook.com">
+  <meta property="og:image" content="assets/DBbrand.png">
+
+  <link href="./assets/css2" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/animate.min.css">
+  <link rel="stylesheet" href="./assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="./assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="./assets/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="./assets/font-awesome.min.css">
+  <link rel="stylesheet" href="./assets/style.css">
+  <link rel="stylesheet" href="./assets/flaticon.css">
+  <link rel="stylesheet" href="./assets/aos.css">
+  <link rel="stylesheet" href="./assets/stylebook.css">
+
+  <link rel="shortcut icon" href="assets/favicon.ico">
+  <script src="https://kit.fontawesome.com/7e32bd3508.js" crossorigin="anonymous"></script> 
+  <script src="./assets/jquery-3.4.1.min.js.download"></script>
+  <style>
+      @import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+  </style>
+  
+</head>
+
+<body data-aos-easing="slide" data-aos-duration="800" data-aos-delay="0" onload="displayCart()">
+    <div class="search-form" id="search-form">
+        <form>
+            <input type="search" class="form-control" placeholder="Enter keyword to search...">
+            <button class="button">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"></path>
+                    <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"></path>
+                </svg>
+            </button>
+            <button class="button">
+                <div class="close-search">
+                    <span class="icofont-close js-close-search"></span>
+                </div>
+            </button>
+        </form>
+    </div>
+
+    <div class="site-mobile-menu">
+        <div class="site-mobile-menu-header">
+            <div class="site-mobile-menu-close">
+                <span class="icofont-close js-menu-toggle"></span>
+            </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+    </div>
+
+    <nav class="site-nav mb-5">
+        <div id="sticky-wrapper" class="sticky-wrapper" style="height: 57px;"><div class="sticky-nav js-sticky-header" style="width: 1349px;">
+            <div class="container position-relative">
+                <div class="site-navigation text-center dark">
+                    <a href="home.html" class="logo menu-absolute m-0"><img src="assets/DBbrand.png" alt="" width="100px"></a>
+                    <ul class="js-clone-nav pl-0 d-none d-lg-inline-block site-menu ">
+                        <li><a href="home.html">Home</a></li>
+                        <li class="has-children">
+                            <a href="men.html">Boys & Men</a>
+                            <ul class="dropdown">
+                                <li><a href="#">Clothing</a></li>
+                                <li><a href="#">Shoes & Footwears</a></li>
+                                <li><a href="#">Accessories & More</a></li>
+                                <li><a href="#">Occasions</a></li>
+                                <li><a href="#">Brands</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-children">
+                            <a href="women.html">Girls & Women</a>
+                            <ul class="dropdown">
+                                <li><a href="#">Clothing</a></li>
+                                <li><a href="#">Shoes & Footwears</a></li>
+                                <li><a href="#">Accessories & More</a></li>
+                                <li><a href="#">Occasions</a></li>
+                                <li><a href="#">Brands</a></li>
+                            </ul>
+                        </li>
+                        <!-- <li><a href="#">Kids</a></li> -->
+                        <li><a href="offers.html">Offers & Sale</a></li>
+                        <li><a href="inspirations.html">Inspirations</a></li>
+                        <!-- <li><a href="#">Contact</a></li> -->
+                        <li class="has-children" >
+                            <a href="account.html" class="user-profile ">
+                              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person" style="font-size: 16px;" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                  <path fill-rule="evenodd" d="M13 14s1 0 1-1-1-4-6-4-6 3-6 4 1 1 1 1h10zm-9.995-.944v-.002.002zM3.022 13h9.956a.274.274 0 0 0 .014-.002l.008-.002c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664a1.05 1.05 0 0 0 .022.004zm9.974.056v-.002.002zM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
+                              </svg>&nbsp; Account &amp; Login
+                            </a> 
+                          <ul class="dropdown text-center">
+                            <li><a href="signin.html">Sign In</a></li>
+                            <hr>
+                            <li><a href="signup.html">Create Account</a></li>
+                          </ul>
+                        </li>
+                    </ul>
+
+                    <div class="menu-icons">
+                        <a href="#" class="btn-custom-search" id="btn-search">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"></path>
+
+                                <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"></path>  
+                            </svg>
+                        </a>
+                        
+                        <a href="cart.html" class="cart">
+                            <span class="total-count item-in-cart"></span>
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"></path>
+                            </svg>
+                        </a>
+                    </div>
+
+                    <a href="#" class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-none" data-toggle="collapse" data-target="#main-navbar">
+
+                        <span></span>
+
+                    </a>
+                </div>
+
+            </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="untree_co-hero" style="background-image: url(./assets/inspiration1.jpg);">
+    </div>
+    <section style="margin-bottom: 80px; margin-top: -150px;">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-10 ">
+                    <div style="background-color:whitesmoke; padding: 30px;" class="blog-post-area">
+                        <h2><b>BEST CHRISTMAS AND NEW YEAR LETTERS/WISHES</b></h2>
+                        <p>Are you racking your brain for good Christmas and New Year wishes to send to your friends and families this year? You have gone through 
+                            many hassles this year and you really need an encouraging christmas/New Year message that will lift your spirits high and get you going. Think no further because we have
+                            made things easier. We've done some research and found these best christmas and new year messages that will make one forget his challenging past, instill hope and get him/her going.
+                            But before we start, This is Dressbook christmas and new year letter for you. We hope you love it:
+                    
+                        </p>
+                        <blockquote style="line-break: loose; text-align: center;"><strong><em>
+                            Because you mean so much to everyone around you,<br>
+                            We simply couldn't miss the chance to tell you that you and your family are very nice <br>
+                            to be remembered at a special time like this.<br>
+                            God is the arm that protects, the wisdom that guides, the love that endures. <br>
+                            May He who created the heaven and earth, Who hears your prayer, <br>
+                            watch over you and your family abundantly with His gentle loving care <br>
+                            AT THIS CHRISTMAS, NEW YEAR AND ALWAYS...<br>
+                        </em></strong>
+                        </blockquote>
+
+                        <p>That Christmas note was from our heart and we hope it encouraged you.</p>
+                        <p>
+                            In general we like to keep things light-hearted at Christmas time, but we can't ignore that many of us have had a difficult year with illness, loss, uncertain employment, and isolation due to COVID-19. With that in mind, here are some examples of Christmas greetings you could use as a starting point to write your own notes of encouragement to friends and family.
+                        </p>
+
+                        <br>                        
+                        <ol>
+                            <li>
+                                New Year? Yes please! Here's to better times ahead for us all! Wishing you a very happy Christmas and a safe and healthy 2021.
+                            </li>
+                            
+                            <li>
+                                From our bubble to yours, we wish you a very Merry Christmas and a happy holiday season! Stay safe and take care.
+                            </li>
+                            
+                            <li>
+                                This Christmas card is packed full of virus-free hugs and kisses just for you! We hope you have a very Merry Christmas and that we can see you again soon. Until then, cheers to you from afar for your good health and happiness!
+                            </li>
+                            
+                            <li>
+                                May the magic of the Christmas season fill your home with joy and peace. Sending lots of love to your family, and looking forward to the day we can see you again. Take care of yourselves and stay safe.
+                            </li>
+                            
+                            <li>
+                                We wish you a very happy Christmas and holiday season. We know that this past year has been very difficult for you, and we pray that the coming year brings more certain times for your family. Sending all our love and good wishes for better days ahead.
+                            </li>
+                            
+                            
+                            <li>
+                                Merry Christmas! We're so sorry you've been ill and hope you are feeling stronger and better every day. May this holiday season be a time of rest as you recover, and the New Year full of hope for better days ahead.
+                            </li>
+                            
+                            <li>
+                                Sending you all our love and merry Christmas wishes. We might be apart today, but you're always in our heart. Take care and stay safe in these uncertain times. We miss you!
+                            </li>
+                            
+                        <br>    
+                                
+                            <h2 id="family">
+                                Merry Christmas Wishes for Family
+                            </h2>
+                            
+                            <li>
+                                Christmas is the time for connecting with family near and far, and these Merry Christmas wishes will help you spread the Christmas cheer this holiday season.
+                            </li>
+                            
+                            
+                            <li>
+                                May the Christmas season fill your home with joy, your heart with love and your life with laughter. Wishing you a very Merry Christmas and we look forward to seeing you in </li>
+                            
+                            <li>
+                                May the Christmas Season bring only happiness and joy to you and your adorable family. We miss you and hope to see you in </li>
+                            
+                            <li>
+                                In this loveliest of seasons may you find many reasons for happiness. Merry Christmas and lots of love from our family to yours!
+                            </li>
+                            
+                            <li>
+                                May the good times and treasures of the present become the golden memories of tomorrow for your lovely family, just as our childhood memories of Holidays past are such happy recollections now. Wishing you lots of love, joy and happiness. Merry Christmas!
+                            </li>
+                            
+                            <li>
+                                May your Christmas sparkle with moments of love, laughter and goodwill. And may the year ahead be full of contentment and joy. Have a Merry Christmas and we look forward to seeing you in.</li>
+                            
+                            <li>
+                                They say the best of all gifts around any Christmas tree is the presence of a happy family all wrapped up in each other. Wishing you a very Merry Christmas surrounded by your precious family, and many blessings for the coming year.
+                            </li>
+                            
+                            <li>
+                                Warmest thoughts and best wishes for a wonderful Christmas and a Happy New Year.  May peace, love, and prosperity follow you always. 
+                            </li>
+                            
+                            <li>
+                                Whatever is beautiful. Whatever is meaningful. Whatever brings you happiness. May it be yours this holiday season and throughout the coming year.
+                            </li>
+                            
+                            <li>
+                                To a joyful present and a well remembered past! We raise a glass to you this Christmas all the way from [insert your location]. Best wishes for a Merry Christmas and a magnificent New Year.
+                            </li>
+                            
+                            <li>
+                                May the holiday season end the present year on a cheerful note and make way for a fresh and bright New Year. Merry Christmas to you and your family!
+                            </li>
+                            
+                            <li>
+                                There's nothing like a well-lit Christmas tree to remind me of all the fun we had together as children. Wishing you a holiday season as full of wonder as when we were young! Merry Christmas.
+                            </li>
+                            
+                            <li>
+                                You always made Christmas a special time for me. Now, I hope you can feel my love and gratitude from far away. Sending you my warmest wishes and blessings.
+                            </li>
+                            
+                            <li>
+                                May the miracle of Christmas bring you joy and happiness. I wish you contentment and peace among you and your family. With Love, [your name]
+                            </li>
+                            
+                            <li>
+                                We're so grateful that you could be here to celebrate the holidays with us and share in our good cheer! May our hopeful wishes follow you home and warm you through the New Year.
+                            </li>
+                            
+                            <li>
+                                Now that the kids are out of the house, you can rest easy for Christmas! Wishing you a relaxing and stress free holiday.
+                            </li>
+                            
+                            <br>
+                            <h2 id="friends">
+                                Merry Christmas Wishes for Friends
+                            </h2>
+                            
+                            
+                            <li>
+                                Christmas time is a great excuse to reach out to friends and let them know you care about them. Send them best wishes for the coming year with these lovely Merry Christmas wishes for friends.
+                            </li>
+                            
+                            <li>
+                                They say that friends are the family you choose. I'm so glad to get to spend some time with my chosen family this holiday season.
+                            </li>
+                            
+                            <li>
+                                I always feel like a kid again when Christmas comes around. You know what that means... Let's get up to some holiday mischief!
+                            </li>
+                            
+                            <li>
+                                Cookies and cakes and spices and cocoa... When it starts to smell like Christmas, it's hard not to get into the spirit. Here's a little something to spread Christmas cheer around your home.
+                            </li>
+                            
+                            <li>
+                                As lovely as the holidays can be, they can also make people feel down and stressed. I know this can be a difficult time of year, and I want you to know that you're not alone. I'm sending you my warmest seasons greetings and lots of love.
+                            </li>
+                            
+                            <li>
+                                It wouldn't be Christmas without you. So glad to have you with me, year after year.
+                            </li>
+                            
+                            <li>
+                                Wishing you Holidays filled with fun and laughter, and very best wishes for a fabulous New Year! I can't wait to celebrate NYE with you!
+                            </li>		
+                            
+                            <li>Christmas is about spending time with family and friends. It’s about creating happy memories that will last a lifetime. Merry Christmas to you and your family!</li>
+                            <li>May the closeness of friends, the comfort of home, and the unity of our nation, renew your spirits this festive season. Merry Christmas to your family.</li>
+                            <li>‘Tis the season to wish one another joy and love and peace. These are my wishes for you, Merry Christmas our dear friends, may you feel the love this special day.</li>
+                            <li>May this festive season sparkle and shine, may all of your wishes and dreams come true, and may you feel this happiness all year round. Merry Christmas!</li>
+                            <li>You make the stars shine brighter and the winter days warmer just by being in my life. Merry Christmas to my favorite person in the world.</li>
+                            <li>A lovely thing about Christmas is that it’s compulsory, like a thunderstorm and we all go through it together. Let&#8217;s buckle up and enjoy the ride.</li>
+                            <li>Celebrate the Wonder and the Joy of the Festive Season. Merry Christmas</li>
+                            <li>To a joyful present and a well-remembered past. Best wishes for Happy Holidays and a magnificent New Year.</li>
+                            <li>May this Christmas end the present year on a cheerful note and make way for a fresh and bright New Year. Here&#8217;s wishing you a Merry Christmas and a Happy New Year!</li>
+                            <li>This festive season is so much more than Christmas parties and gift giving. May your Christmas be filled with the true miracles and meaning of this beautiful time.</li>
+                            <li>May you feel all the love and joy I have for you throughout this festive season and all year round. Having you as my friend brings me great joy.</li>
+                            <li>Best friends are to a friendship like Christmas is to the other celebrations: always on top. Have a merry one.</li>
+                            <li>Christmas is a special time to enjoy with all your loved ones, spreading divinity and cheer around, Merry Christmas and a happy new year!</li>
+                            <li>Christmas is really a time for families to unite. It is a time to share all the laughter and cheers. Without you, this family will not be called a family. You complete our lives. Merry Christmas . . . !!!</li>
+                            <li>For your Christmas time, I wish you many blessings, much happiness, and even more love I am grateful for you and your thoughtfulness.</li>
+                            <li>May your heart and home be filled with all of the joys the festive season brings. Merry Christmas and a wonderful New Year!</li>
+                            <li>During this festive season of giving, let us take time to slow down and enjoy the simple things. May this wonderful time of the year touch your heart in a special way. Wishing you much happiness not just today, but throughout the New Year.</li>
+                            <li>May the joy and peace of Christmas be with you all through the Year. Wishing you a season of blessings from heaven above. Happy Christmas!!</li>
+                            <li>May your world be filled with warmth and good cheer this Holy season, and throughout the year.</li>
+                            <li>Wish you a Merry Christmas and may this festival bring abundant joy and happiness in your life!</li>
+                            <li>Warmest greetings of this festive season and best wishes for Happiness in the New Year</li>
+                            <li>Warmest thoughts and best wishes for a wonderful Christmas and a Happy New Year. May peace, love and prosperity follow you always</li>
+                            <li>The true heart of Christmas is one of wonder and warmth. May any festive stress you feel fade away and be replaced with this. Merry Christmas!</li>
+                            <li>I hope Santa is good to you this year because you only deserve the best. Merry Christmas from our family to yours.</li>
+                            <li>Christmas is the time to touch every heart with love and care. Christmas is the time to receive and send blessings. It is the time to breathe the magic in the air. Wishing you a very Merry Christmas.</li>
+                            <li>I’m wishing you all the blessings of a wonderful Christmastime and I hope you feel all the job this holiday season has to offer.</li>
+                            <li>Beneath the hustle and bustle of the festive season, there is the true beauty of connecting with loved ones. May this beauty and joy lift you up during Christmas and the New Year!</li>
+                            <li>May all the sweet magic of Christmas conspire to gladden your heart and fill every desire. Merry Christmas!</li>
+                            <li>Fill your heart with the warmth that is the closeness of your family, friends and loved ones this holiday season and forever.</li>
+                            <li>Let the spirit of love gently fill our hearts and homes. In this loveliest of celebrations may you find many reasons for happiness.</li>
+                            <li>There are some people who want to throw their arms around you simply because it is Christmas; there are other people who want to strangle you simply because it is Christmas. Which one are you?</li>
+                            <li>Having you as my friend makes me feel as if it is Christmas every day.  Merry Christmas to my dear friend, may this season be filled with joy and laughter for you and your family.</li>
+                            <li>Christmas is the gentlest, loveliest festival of the revolving year — and yet, for all that, when it speaks, its voice has strong authority. ~W.J. Cameron</li>
+                            <li>The one who has not Christmas in his heart will never find it under a tree. Celebrate the true meaning of Christmas and embrace the warmth of your closest ones. Merry Christmas</li>
+                            <li>A silent night, a star above, a blessed gift of hope and love. A Merry Christmas to you and your whole family.</li>
+                            <li>May your heart and home be filled with all of the joys the festive season brings. Here is a toast to a Merry Christmas and prosperous New Year!</li>
+                            <li>May this Christmas end the present year on a cheerful note and make way for a fresh and bright New Year. Here’s wishing you a Merry Christmas and a Happy New Year!</li>
+                            <li>May your Christmas sparkle with moments of love, laughter and goodwill, And may the year ahead be full of contentment and joy.</li>
+                            <li>On Christmas, there’s a reason to be happy and a reason to smile, and there’s a reason why I’m sending Christmas wishes your way. You’re it.</li>
+                            <li>Wishing you a joyous Christmas and a happy and prosperous New Year.</li>
+                            <li>One of the most glorious messes in the world is the mess created in the living room on Christmas day. Don’t clean it up too quickly. Savor and enjoy the moment. Merry Christmas!</li>
+                            <li>The Gift of Christmas is a precious reminder that we are loved! I am so lucky to have someone I love so much at my side this festive season.</li>
+                            <li>A Christmas candle is a lovely thing; It makes no noise at all but softly gives itself away; while quite unselfish,it grows small.</li>
+                            <li>A little smile, a word of cheer a bit of love from someone near a little gift from one held dear, best wishes for the coming year.</li>
+                            <li>Christmas is not a time for celebration, but a state of mind. To cherish peace and kindness, to be plenteous in mercy, is to have the real spirit of Christmas.</li>
+                            <li>There is no greater gift this festive season than spending time with family all around the Christmas tree.</li>
+                            <li>May the good times and treasures of the present become the golden memories of tomorrow. Wish you lots of love, joy, and happiness. MERRY CHRISTMAS</li>
+                            <li>Christmas is a special time to enjoy with, All your loved ones, To spread the divinity and cheer around, Merry Christmas and a happy new year!</li>
+                            <li>The gift of love. The gift of peace. The gift of happiness.  May all these be yours at Christmas.</li>
+                            <li>May you have the spirit of Christmas which is Peace, the gladness of Christmas which is Hope, and the Heart of Christmas which is Love.</li>
+                            </ol>
+
+                        </div>
+
+                    </div>
+
+                </div>
+        
+            </div>
+
+        </div>             
+
+    </div>
+
+</section>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="widget">
+                        <h2><b>Be the first to smile</b></h2>
+                        <h3>Join our list and receive the latest trends, new arrivals and exclusive offers.</h3>
+                        <form onsubmit="alert('Thanks for subscribing. We promise to send mails that make you smile.')" action="https://app.us7.list-manage.com/subscribe/post?u=82bb436f72ea32756e894aab2&amp;id=aecc16fd80" method="post" class="subscribe" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                            <div class="d-flex">
+                                <input type="email" class="form-control" name="EMAIL" id="mce-EMAIL" placeholder="Email address" style="border: 1px solid orange;" required>
+                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_82bb436f72ea32756e894aab2_aecc16fd80" tabindex="-1" value=""></div>
+                                <div class="clear"><button type="submit"  class="btn btn-orange"id="mc-embedded-subscribe" name="subscribe"><b>&check;</b></button></div>
+                            </div>
+                        </form>
+
+                    </div>
+                    
+                    <h5><b>Get Inspired Even More</b></h5>
+                    <h6 style="font-size: 14px;">Connect with us and Join the Conversation</h6>
+            
+                        <ul class="nav">
+                            <li class="social-item">
+                                <a href="https://facebook.com/officialDressbook" target="_blank" ><svg xmlns="http://www.w3.org/2000/svg" class="facebook" height= "1em" width="1em" fill="blue" viewBox="0 0 320 512"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg></a>
+                            </li>
+                            <li class="social-item">
+                                <a href="https://instagram.com/official_dressbook" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" class="instagram" height= "1em" width="1em" fill="red" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a>
+                            </li>
+                            <li class="social-item">
+                                <a href="https://www.twitter.com/dressbook_store" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" class="twitter" height= "1em" width="1em" fill="royalblue" viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg></a>
+                            </li>
+                            <li class="social-item">
+                                <a href="https://www.linkedin.com/in/dressbook-store" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" class="linkedin" viewBox="0 0 448 512" fill="royalblue" height= "1em" width="1em"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/></svg></a>
+                            </li>
+        
+                        </ul>
+
+                        <hr class="small-screen">
+                    </div>
+
+                    <div class="col-lg-2">
+                        <div class="widget">
+                        
+                            <h3><b>Help</b></h3>
+
+                            <ul class="list-unstyled">
+
+                                <li><a href="contact.html">Contact us</a></li>
+
+                                <li><a href="account.html">Account</a></li>
+
+                                <li><a href="#">Shipping &amp; Returns</a></li>
+
+                                <li><a href="#">FAQ</a></li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+                
+                    <div class="col-lg-2">
+                        <div class="widget">
+
+                            <h3><b>About</b></h3>
+
+                            <ul class="list-unstyled">
+
+                                <li><a href="about.html">About us</a></li>
+                                <li><a href="terms.html">Terms &amp; Conditions</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="inspirations.html">Inspirations</a></li>
+
+                            </ul>
+                        </div>
+                        
+                    </div>
+
+                    <div class="col-lg-2">
+
+                        <div class="widget">
+
+                        <h3><b>Shop</b></h3>
+
+                        <ul class="list-unstyled">
+
+                            <li><a href="#">Store</a></li>
+                            <li><a href="men.html">Boys &amp; Men </a></li>
+                            <li><a href="women.html"> Girls &amp; Women </a></li>
+                            <li><a href="offers.html"> Offers &amp; Sale</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-12 text-center copyright">
+
+                    <p> Copyright ©<script>document.write(new Date().getFullYear());</script> Dressbook Limited. All rights reserved.</a>
+
+                </div>
+            </div>
+            
+        </div> <!-- /.container -->    
+    
+    </footer> <!-- /.site-footer -->
+
+
+    <script src="./assets/script.js"></script>
+    <script src="./assets/script2.js"></script>
+    <script src="./assets/popper.min.js.download"></script>
+    <script src="./assets/bootstrap.min.js.download"></script>
+    <script src="./assets/owl.carousel.min.js.download"></script>
+    <script src="./assets/jquery.animateNumber.min.js.download"></script>
+    <script src="./assets/jquery.waypoints.min.js.download"></script>
+    <script src="./assets/jquery.fancybox.min.js.download"></script>
+    <script src="./assets/jquery.sticky.js.download"></script>
+    <script src="./assets/aos.js.download"></script>
+    <script src="./assets/custom.js.download"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="./assets/js"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','UA-23581568-13');</script>
+</body></html>
